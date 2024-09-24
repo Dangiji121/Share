@@ -21,7 +21,7 @@ let currentIndex = 0; // To keep track of the number of posts shown
   let posts = [];       // Will hold the RSS feed entries
 
   // Fetch posts labeled "Fortnite Quotes"
-  fetch('https://fortnitequoteoftheday.blogspot.com/feeds/posts/default/-/Fortnite%20Quotes?alt=json')
+  fetch('https://www.dangiji.com/feeds/posts/default?alt=json')
     .then(response => response.json())
     .then(data => {
         posts = data.feed.entry;
