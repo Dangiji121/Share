@@ -1,0 +1,65 @@
+#share-buttons {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .share-container {
+        display: inline-flex;
+        gap: 10px;
+    }
+
+    .share-btn {
+        display: inline-block;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        color: #333;
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    /* WhatsApp Button Hover Effect */
+    .whatsapp-btn:hover {
+        background-color: #25D366;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Twitter Button Hover Effect */
+    .twitter-btn:hover {
+        background-color: #000000;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Telegram Button Hover Effect */
+    .telegram-btn:hover {
+        background-color: #0088cc;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Facebook Button Hover Effect */
+    .facebook-btn:hover {
+        background-color: #1877f2;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Pinterest Button Hover Effect */
+    .pinterest-btn:hover {
+        background-color: #E60023;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
